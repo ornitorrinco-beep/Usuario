@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+  color: white;
+}
+.caja{
+  border: 5px solid white;
+}
+.lista{
+  border: 2px solid pink;
+list-style: none;
+padding: 5px;
+height: 100%;
+box-sizing: border-box;
+}
+ul{
+   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+grid-auto-rows: 250px;
+gap: 10px;
+margin: 0;
+padding: 5px;
+}
